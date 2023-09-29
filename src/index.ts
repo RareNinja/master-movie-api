@@ -1,5 +1,5 @@
 import { server } from "./server/server";
 
-server.listen(3030, () => {
-    console.log('Server rodo!')
-})
+server.listen(process.env.PORT || 3333, () => {
+    console.log("Server rodo!");
+});
